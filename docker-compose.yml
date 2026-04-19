@@ -43,7 +43,7 @@ services:
       - "8080:8080"
 
     volumes:
-      - /dev/vdb/data/downloads:/usr/src/app/downloads
+      - /data/downloads:/usr/src/app/downloads
 
     environment:
       - DOWNLOAD_DIR=/usr/src/app/downloads/
